@@ -1,0 +1,8 @@
+commonsense-morals:
+  id: commonsense-morals.dev.v0
+  metrics: [accuracy]
+
+commonsense-morals.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: commonsense-morals/samples.jsonl
